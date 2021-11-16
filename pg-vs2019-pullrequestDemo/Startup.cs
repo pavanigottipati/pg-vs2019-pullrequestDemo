@@ -32,7 +32,7 @@ namespace pg_vs2019_pullrequestDemo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<h1>Hello World!</h1>");
                 });
             });
         }
